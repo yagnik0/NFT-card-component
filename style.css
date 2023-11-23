@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.bot-margin{
+    margin-bottom: 1.4rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    max-width: 30rem;
+    max-height: 440vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.image-style {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.head-style {
+    font-size: 2.4rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.para-style {
+    font-size: 1.8rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.icons-flex {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+}
+
+.icon-text {
+    color: hsl(178, 100%, 50%);
+}
+
+.hr-style {
+    color: hsl(215, 32%, 27%);
+}
+
+.gap-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.avatar-flex{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    color: hsl(215, 51%, 70%);
+    font-size: 1.8rem;
+}
+
+.avatar-flex span {
+    color: hsl(0, 0%, 100%) ;
+}
+
+.avatar-flex img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
